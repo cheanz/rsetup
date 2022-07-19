@@ -1,8 +1,9 @@
 #!/bin/bash
-__main_System(){
+__main_system(){
     menu_init
     menu_add __System_Systemupdate "System update" 
     menu_add __System_Updatebootloader "Update bootloader"
+    menu_show "System1"
 }
 
 __System_Systemupdate(){
